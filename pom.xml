@@ -14,10 +14,9 @@
   <properties>
     
     <group.id>CXX</group.id>
+    <seeker.name>${group.id}_Seeker</seeker.name>
     <depot.name>${group.id}_Depot</depot.name>
     <sentry.name>${group.id}_Sentry</sentry.name>
-    <seeker.name>${group.id}_Seeker</seeker.name>
-    <feeder.name>${group.id}_Feeder</feeder.name>
     
     <zookeeper.url>localhost:2181</zookeeper.url>
   
@@ -26,6 +25,7 @@
     <version.java>1.8</version.java>
     <maven.compiler.source>${version.java}</maven.compiler.source>
     <maven.compiler.target>${version.java}</maven.compiler.target>
+    
     
     <version.maven-resources-plugin>3.1.0</version.maven-resources-plugin>
     <version.maven-failsafe-plugin>2.22.2</version.maven-failsafe-plugin>
@@ -43,22 +43,23 @@
     <version.maven-compiler-plugin>3.8.1</version.maven-compiler-plugin>
   </properties>
 
+  
   <modules>
   	<module>seeker</module>
-  	<module>feeder</module>
   	<module>depot-contract</module>
   	<module>depot-client</module>
   	<module>depot-server</module>
   	<module>sentry-contract</module>
   	<module>sentry-client</module>
   	<module>sentry-server</module>
+  	<module>feeder</module>
   </modules>
   
   <dependencies>
   	<dependency>
   	<groupId>pt.ulisboa.tecnico.sdis</groupId>
     <artifactId>zk-naming</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
   	</dependency>
   </dependencies>
   
@@ -74,5 +75,6 @@
 				</plugin>
   	</plugins>
   </build>
+  
   
 </project>

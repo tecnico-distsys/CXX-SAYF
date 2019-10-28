@@ -1,0 +1,6 @@
+//
+// Protocol buffers definition for Depot
+//
+syntax = "proto3";
+package pt.sayf.depot.grpc;
+

@@ -15,7 +15,10 @@ _preencher com identificador de grupo e depois apagar esta linha_
 
 ... ... ...
 
-_preencher com nome, número e GitHub ID de membro do grupo e depois apagar esta linha_
+_preencher com nome, nÃºmero e GitHub ID de membro do grupo e depois apagar esta linha_
+
+
+### Module leaders
 
 For each module, the README file must identify the lead developer and the contributors.
 The leads should be evenly divided among the group members.
