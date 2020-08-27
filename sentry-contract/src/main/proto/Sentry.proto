@@ -1,8 +1,0 @@
-//
-// Protocol buffers definition for Sentry
-//
-
-syntax = "proto3";
-package pt.sayf.sentry.grpc;
-
-

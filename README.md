@@ -1,21 +1,17 @@
 # SAYF
 
-**S**earch **A**nd **Y**ou will **F**ind project for group CXX
+**S**earch **A**nd **Y**ou will **F**ind project
 
-Distributed Systems 2019-2020, 1st semester project
+Distributed Systems special project
 
 ## Authors
 
-Group CXX
-_preencher com identificador de grupo e depois apagar esta linha_
+CXX
+_preencher com identificador e depois apagar esta linha_
 
 ... ... ...
 
-... ... ...
-
-... ... ...
-
-_preencher com nome, número e GitHub ID de membro do grupo e depois apagar esta linha_
+_preencher com nome, número e GitHub ID e depois apagar esta linha_
 
 
 ### Module leaders
@@ -26,7 +22,7 @@ The leads should be evenly divided among the group members.
 
 ### Code identification
 
-In all the source files (including POMs), please replace __CXX__ with your Campus: A (Alameda) or T (Tagus); and your group number with two digits.
+In all the source files (including POMs), please replace __CXX__ with your Campus: A (Alameda) or T (Tagus); and your number.
 
 This is important for code dependency management 
 i.e. making sure that your code runs using the correct components and not someone else's.
@@ -35,10 +31,10 @@ i.e. making sure that your code runs using the correct components and not someon
 ## Getting Started
 
 The overall system is composed of multiple servers and clients.
-The main server is _depot_ that is aided by _sentry_. 
+The main server is _depot_. 
 The clients are _seeker_ and _feeder_.
 
-See the project statement for a full description of the domain and the system.
+See the [project statement](https://github.com/tecnico-distsys/SAYF/tree/EE) for a full description of the domain and the system.
 
 
 

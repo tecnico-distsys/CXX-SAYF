@@ -16,7 +16,6 @@
     <group.id>CXX</group.id>
     <seeker.name>${group.id}_Seeker</seeker.name>
     <depot.name>${group.id}_Depot</depot.name>
-    <sentry.name>${group.id}_Sentry</sentry.name>
     
     <zookeeper.url>localhost:2181</zookeeper.url>
   
@@ -49,17 +48,15 @@
   	<module>depot-contract</module>
   	<module>depot-client</module>
   	<module>depot-server</module>
-  	<module>sentry-contract</module>
-  	<module>sentry-client</module>
-  	<module>sentry-server</module>
   	<module>feeder</module>
   </modules>
   
+  <!-- You can find ZKNaming in https://github.com/tecnico-distsys/naming -->
   <dependencies>
   	<dependency>
   	<groupId>pt.ulisboa.tecnico.sdis</groupId>
     <artifactId>zk-naming</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
   	</dependency>
   </dependencies>
   
